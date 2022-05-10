@@ -9,10 +9,10 @@ export class FavoriteSongsService {
 
   getFavoriteSongs(){
     return [
-      {"Id" : 1, "Name":"Comfortably Numb", "Band": "Pink Floyd"},
-      {"Id" : 2, "Name":"Hey You", "Band": "Pink Floyd"},
-      {"Id" : 3, "Name":"Time", "Band": "Pink Floyd"},
-      {"Id" : 4, "Name":"Money", "Band": "Pink Floyd"}
+      {"Id" : 1, "Name":"AEIOU", "Band": "Seven Phoenix"},
+      {"Id" : 2, "Name":"BANKROLL", "Band": "Bockhamption ft. A$AP Rocky, A$AP Ferg"},
+      {"Id" : 3, "Name":"Deweloper", "Band": "Tymek"},
+      {"Id" : 4, "Name":"ULTRA VIOLET", "Band": "Thouxanbanfauni"}
     ];
   }
 }
