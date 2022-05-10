@@ -9,10 +9,10 @@ export class FavoriteWebsitesService {
 
   getFavoriteWebsites(){
     return [
-      {"Id" : 1, "Name":"Apple", "Url": "https://www.apple.com/"},
-      {"Id" : 2, "Name":"Microsoft", "Url": "https://www.microsoft.com/"},
-      {"Id" : 3, "Name":"Angular", "Url": "https://www.angular.io/"},
-      {"Id" : 4, "Name":"Nodejs", "Url": "https://www.nodejs.org/"}
+      {"Id" : 1, "Name":"Find the Invisible Cow", "Url": "https://findtheinvisiblecow.com/"},
+      {"Id" : 2, "Name":"Staggering Beauty", "Url": "http://www.staggeringbeauty.com/"},
+      {"Id" : 3, "Name":"Scream Into The Void", "Url": "https://screamintothevoid.com/"},
+      {"Id" : 4, "Name":"Shady URL", "Url": "http://www.shadyurl.com/create.php"}
     ];
   }
 }
