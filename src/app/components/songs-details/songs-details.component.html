@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Band</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of favoriteSongs">
+      <th>{{ item.Id }}</th>
+      <td>{{ item.Name }}</td>
+      <td>{{ item.Band }}</td>
+    </tr>
+  </tbody>
+</table>

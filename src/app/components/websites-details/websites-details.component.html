@@ -1,0 +1,16 @@
+<table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Url</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of favoriteWebsites">
+        <th>{{ item.Id }}</th>
+        <td>{{ item.Name }}</td>
+        <td><a href="{{ item.Url }}">{{ item.Url }}</a></td>
+      </tr>
+    </tbody>
+  </table>
